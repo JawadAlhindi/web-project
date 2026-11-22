@@ -43,3 +43,10 @@ figcaption {
 a {
     color: #D4AF37;
 }
+
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+}
