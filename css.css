@@ -1,0 +1,40 @@
+body {
+    background-color: #12372A;
+    color: #D9D2C3;
+    font-family:serif;
+   
+}
+
+
+h1, h2, h3 {
+    color: #E8DCC4;
+}
+
+
+nav {
+    background-color: #0B261D;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.bookmark {
+    color: #D9D2C3;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.bookmark:hover {
+    color: #D4AF37;
+    text-decoration: underline;
+}
+
+p, li, label, figcaption {
+    color: #B8B8B8;
+}
+
+
+a {
+    color: #D4AF37;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Order Tracker</title>
+    <style>
+        body {
+    background-color: #12372A;
+    color: #D9D2C3;
+    font-family:serif;
+   
+}
+
+
+h1, h2, h3 {
+    color: #E8DCC4;
+}
+
+
+nav {
+    background-color: #0B261D;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.bookmark {
+    color: #D9D2C3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.bookmark:hover {
+    color: #D4AF37;
+    text-decoration: underline;
+}
+
+p, li, label, figcaption {
+    color: #B8B8B8;
+}
+
+
+a {
+    color: #D4AF37;
+}
+    </style>
+</head>
+
+<body>
+
+    <h2>Customer Order Tracker</h2>
+  <nav>
+<a class="bookmark" href="HOME.html">Home</a> |
+<a class="bookmark" href="AboutUs.htm">About Us</a> |
+<a class="bookmark" href="success.html">Success Stories</a> |
+<a class="bookmark" href="services.html">Services & Support</a> |
+<a class="bookmark" href="resources.html">Resources Hub</a> |
+<a class="bookmark" href="contact.html">Contact Us</a>
+    </nav>
+<hr>
+    <form>
+
+        <label>Customer Name:</label><br>
+        <input type="text" name="customerName">
+        <br><br>
+
+        <label>Product:</label><br>
+        <select name="product">
+            <option>-- Select Product --</option>
+            <option>Dr.Osama Alshareet book</option>
+            <option>Java Book</option>
+            <option>Python Book</option>
+            <option>HTML and CSS Book</option>
+            <option>Data Structures Book</option>
+        </select>
+        <br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" name="quantity">
+        <br><br>
+
+        <label>Delivery Option:</label><br>
+
+        <input type="radio" name="delivery" value="Standard">
+        Standard Delivery
+
+        <input type="radio" name="delivery" value="Express">
+        Express Delivery
+
+        <br><br>
+
+        <label>Payment Method:</label><br>
+
+        <select name="payment">
+            <option>-- Select Payment Method --</option>
+            <option>Cash</option>
+            <option>Credit Card</option>
+            <option>PayPal</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
